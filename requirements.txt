@@ -1,0 +1,11 @@
+# Заполняется командой pip freeze после того, как ноутбук прошёл Restart & Run All.
+# Ниже — минимальный набор; версии зафиксировать по факту установки.
+torch>=2.2
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+kagglehub>=0.3
+jupyter>=1.0
+tqdm>=4.66

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Данные: сырой датасет качается кодом через kagglehub, в git не кладём
+data/raw/
+data/*.csv
+data/*.zip
+
+# Веса моделей (тяжёлые, воспроизводятся ноутбуком)
+models/*.pt
+models/*.pth
+
+# Kaggle-токен и прочие секреты
+kaggle.json
+.env
+
+# ОС / IDE
+.DS_Store
+.vscode/
+.idea/
