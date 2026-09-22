@@ -1,25 +1,16 @@
-# Python
-__pycache__/
-*.pyc
-.venv/
+# виртуальное окружение — в репозиторий не кладём
 venv/
+.venv/
+
+# старая версия ноутбука
+main_old.ipynb
+
+# сохранённые веса моделей
+models/
+
+# служебные файлы Jupyter и Python
 .ipynb_checkpoints/
+__pycache__/
 
-# Данные: сырой датасет качается кодом через kagglehub, в git не кладём
-data/raw/
-data/*.csv
-!data/sample.csv 
-data/*.zip
-
-# Веса моделей (тяжёлые, воспроизводятся ноутбуком)
-models/*.pt
-models/*.pth
-
-# Kaggle-токен и прочие секреты
-kaggle.json
-.env
-
-# ОС / IDE
+# служебные файлы macOS
 .DS_Store
-.vscode/
-.idea/
